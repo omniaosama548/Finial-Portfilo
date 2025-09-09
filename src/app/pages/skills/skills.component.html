@@ -150,32 +150,37 @@
     </div>
 
     <!-- Additional Info Section -->
-    <div class="mt-16 text-center">
-      <div class="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-        <h3 class="text-2xl font-bold mb-4">Always Learning</h3>
-        <p class="text-blue-100 max-w-2xl mx-auto">
-          I'm constantly expanding my skillset and staying up-to-date with the latest technologies and best practices in web development.
-        </p>
-        <div class="mt-6 flex justify-center space-x-8 text-sm">
-          <div class="flex items-center">
-            <div class="w-3 h-3 bg-blue-200 rounded-full mr-2"></div>
-            <span>{{ frontendSkills.length }} Frontend Skills</span>
-          </div>
-          <div class="flex items-center">
-            <div class="w-3 h-3 bg-green-200 rounded-full mr-2"></div>
-            <span>{{ backendSkills.length }} Backend Skills</span>
-          </div>
-          <div class="flex items-center">
-            <div class="w-3 h-3 bg-purple-200 rounded-full mr-2"></div>
-            <span>{{ databaseSkills.length }} Database Skills</span>
-          </div>
-          <div class="flex items-center">
-            <div class="w-3 h-3 bg-orange-200 rounded-full mr-2"></div>
-            <span>{{ toolsSkills.length }} Tools</span>
-          </div>
-        </div>
+    <div class="mt-16 px-4 sm:px-6 lg:px-8 text-center">
+  <div class="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-6 sm:p-8 lg:p-10 text-white">
+    <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Always Learning</h3>
+    <p class="text-blue-100 max-w-2xl mx-auto text-sm sm:text-base lg:text-lg">
+      I'm constantly expanding my skillset and staying up-to-date with the latest technologies and best practices in web development.
+    </p>
+
+    <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
+      <div class="flex items-center justify-center">
+        <div class="w-3 h-3 bg-blue-200 rounded-full mr-2"></div>
+        <span>{{ frontendSkills.length }} Frontend Skills</span>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <div class="w-3 h-3 bg-green-200 rounded-full mr-2"></div>
+        <span>{{ backendSkills.length }} Backend Skills</span>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <div class="w-3 h-3 bg-purple-200 rounded-full mr-2"></div>
+        <span>{{ databaseSkills.length }} Database Skills</span>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <div class="w-3 h-3 bg-orange-200 rounded-full mr-2"></div>
+        <span>{{ toolsSkills.length }} Tools</span>
       </div>
     </div>
+  </div>
+</div>
+
 
     <!-- Floating Elements for Visual Appeal -->
     <div class="absolute top-1/4 left-8 w-20 h-20 bg-blue-200 dark:bg-blue-800 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
