@@ -1,27 +1,33 @@
-# MyPortfilo
+#  Portfolio Website  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.19.
+A full-stack **Portfolio Project** to showcase my work and projects.  
+The backend is built with **Node.js + Express + MongoDB**, and the frontend is developed using **Angular**.  
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+##  Features
+- Display all projects with **title, description, live link, GitHub link, and image**.
+- Upload project images (initially stored locally, later migrated to Cloudinary).
+- RESTful APIs to **Add, Update, Delete, and Get** projects.
+- Responsive frontend built with Angular.
+- Backend deployed on **Vercel**.
+- Frontend deployed on **Vercel/GitHub Pages**.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##  Tech Stack
+### Backend:
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Multer (for file uploads)
+- Cloudinary (for image hosting)
 
-## Build
+### Frontend:
+- Angular
+- TypeScript
+- Bootstrap / SCSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

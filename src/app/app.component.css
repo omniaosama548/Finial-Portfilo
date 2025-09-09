@@ -1,0 +1,5 @@
+.animate-spin,
+.animate-bounce,
+.animate-ping {
+  animation: none !important;
+}
